@@ -1,0 +1,22 @@
+{
+    "name": "bi-php/web3-decode-php",
+    "description": "A PHP library for decoding Ethereum logs and errors",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Bernard Itoro",
+            "email": "bernarditoro@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "web3p/web3.php": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Web3DecodePhp\\": "src/"
+        }
+    }
+}
