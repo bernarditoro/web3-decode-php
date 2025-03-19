@@ -25,7 +25,7 @@ To decode an Ethereum error, use the `decodeError` function:
 ```php
 require 'vendor/autoload.php';
 
-use Web3DecodePhp\decodeError;
+use Web3DecodePhp\DecodeError;
 
 $errorSelector = '0x12345678'; // Example error selector
 $abi = [
@@ -39,7 +39,7 @@ $abi = [
     ]
 ];
 
-$decodedError = decodeError($errorSelector, $abi);
+$decodedError = DecodeError::decode($errorSelector, $abi);
 
 echo $decodedError;
 ```
